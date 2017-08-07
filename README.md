@@ -1,5 +1,6 @@
 # This repository contains Python scripts used for scPLATE-Seq data processing
 # 
+#
 # demultiplex.py
 # Python scripts for demultiplexing sequencing result into individual .fastq files corresponding to each well
 # Inputs:
@@ -10,6 +11,7 @@
 # --prefix, -p: Prefix of demultiplexed .fastq files
 # Output:
 # Individual .fastq files corresponding to each well
+#
 #
 # CountUMI.py
 # Python scripts for measuring transcripts per gene and mapped reads per gene for single well
