@@ -20,6 +20,6 @@
 # --umiFile, -u: Name of file containing transcripts per gene
 # countFile, -c: Name of file containing mapped reads per gene
 # --lenUMI, -l: UMI length
-# hammingThreshold, -t: Hamming distance correction threshold, under which two UMIs are considered as from the same transcript
+# hammingThreshold, -t: Hamming distance correction threshold, under which two UMIs are considered as from the same transcript, 0 if not applying hamming distance correction
 # Outputs:
 # Tab-delimated text files containing transcripts per gene and mapped reads per gene, with genes in 1st and values in 2nd column
