@@ -6,6 +6,8 @@
 # Inputs:
 # --workDir, -d: Working directory
 # --barcodeInfo, -i: Tab-delimated text file specifying barcode-well correspondence, with barcodes (8nt) in 1st and wells in 2nd column
+# --barcodeLen, -l: Length of cell barcode
+# --umiLen, -u: Length of UMI
 # --seqFastq, -s: Multiplexed sequencing result in .fastq file containing the mappable (5') reads
 # --barcodeFastq. -b: Multiplexed sequencing result in .fastq file containing the barcoding (3') reads
 # --prefix, -p: Prefix of demultiplexed .fastq files
