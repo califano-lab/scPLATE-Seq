@@ -20,7 +20,7 @@
 # Input:
 # --samFile, -i: Result of STAR alignment with option --quantMode TranscriptomeSAM and --clip5pNbases 8 (8nt unmappable barcodes)
 # --umiFile, -u: Name of file containing transcripts per gene
-# countFile, -c: Name of file containing mapped reads per gene
+# --countFile, -c: Name of file containing mapped reads per gene
 # --lenUMI, -l: UMI length
 # hammingThreshold, -t: Hamming distance correction threshold, under which two UMIs are considered as from the same transcript, 0 if not applying hamming distance correction
 # Outputs:
